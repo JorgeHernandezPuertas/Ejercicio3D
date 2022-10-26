@@ -14,8 +14,10 @@ public class InversorPalabras {
 
     public static void main(String[] args) {
 
-        /* Leo una palabra por teclado en bucle hasta que el usuario no escriba "salir". El programa tiene que
-        convertir la palabra introducida en la inversa (ponerla al reves) */
+        /* 
+        Leo una palabra por teclado en bucle hasta que el usuario no escriba "salir". El programa tiene que
+        convertir la palabra introducida en la inversa (ponerla al reves) 
+        */
         String palabra, inversaPalabra = "";
         int recuentoPalabra = 0;
         do {
