@@ -31,7 +31,7 @@ public class Bisiestos {
                 año = Math.abs(año);
                 boolean esBiesto = ((año % 4 == 0) && ((año % 100 != 0) || (año % 400 == 0)));
                 String resultado = año + " ¿es bisiesto? " + esBiesto;
-                System.out.println(año + " ¿es bisiesto? " + esBiesto);
+                JOptionPane.showMessageDialog(null,resultado);
             }
         } while (año > 0);
     }
